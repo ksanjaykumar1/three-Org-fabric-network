@@ -1,0 +1,23 @@
+[
+    {
+        "name": "org1ResourcesPrivateData",
+        "policy": "OR('org1.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 6,
+        "blockToLive": 0
+    },
+    {
+        "name": "org2ResourcesPrivateData",
+        "policy": "OR('org2.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 6,
+        "blockToLive": 0
+    },
+    {
+        "name": "org3ResourcesPrivateData",
+        "policy": "OR('org3.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 6,
+        "blockToLive": 0
+    }
+]
